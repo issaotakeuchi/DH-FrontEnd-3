@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1E1E1E;
+  display: flex;
+  justify-content: center;
+  padding-top: 84px;
+  padding-left: 264px;
+  padding-right: 264px;
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1200px;
+  height: 309px;
+  background: #202020;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-content: end;
+}
+
+.addButton {
+  width: 231px;
+  height: 57px;
+  background: #36CE7C;
+  border-radius: 12px;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.container_input {
+  display: flex;
+}
+
+.container_input label {
+  color:#FFFFFF;
+}
+
+.container_input input {
+  width: 558px;
+  height: 30px;
+}
+
+.label_and_input{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.cards {
+  padding-top: 32px;
+}
